@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>My favorite hobby</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var colors = ["pink", "lightgreen", "teal", "skyblue", "orange", "maroon", "magenta", "white"];
+
+        var counter = 0;
+
+
+        function colorchange() {
+            document.body.style.background = colors[counter];
+            counter++;
+            if (counter == 8) {
+                counter = 0
+            }
+        }
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <ul class="list">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#gallery">Gallery</a></li>
+        <li class="link"><a href="#hobby">Inspiration</a></li>
+    </ul>
+    <section id="home"></section>
+    <section>
+        <div class="div">
+            <img id="coding" src="https://image.shutterstock.com/image-vector/abstract-futuristic-cyberspace-binary-code-260nw-740523562.jpg">
+            <h1>My favorite hobby is coding</h1>
+
+            <hr>
+
+            <p>My hobby is coding in my free time. Whenever I'm not at school or taking a break or eating I'm coding. I think that creating something on a computer is very interesting and fun to do. When I grow up I want to become a game developer because I'm very interested in 3d games.</p>
+            <button id="clrchange" onclick="colorchange()"> Colorswap</button>
+            <section id="hobby">
+                <div>
+                    <h1>One of my idols, who codes and makes games is Toby Fox.</h1>
+                    <h2>Here is more about him</h2>
+                </div>
+                <div class="line"></div>
+                <iframe src="https://en.wikipedia.org/wiki/Toby_Fox" height="400" width="500"></iframe>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>
+            <section id="gallery">
+                <h1>Here is a gallery of photos related to coding</h1>
+                <div class="line"></div>
+                <a href="https://unsplash.com/s/photos/coding" target="_blank">Gallery</a>
+            </section><br><br><br><br><br><br><br><br><br><br>
+            <section id="inspire">
+                <h1>Inspiration</h1>
+                <div class="line"></div><br><br><br><br><br><br><br><br>
+                <a href="https://en.wikipedia.org/wiki/Toby_Fox" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZOw_FpC8I2uboyJvTJ64Bosj18S5uO_1A_Q&usqp=CAU" id="toby"></a>
+            </section>
+
+            <section id="contact">
+                <h1>Contact</h1>
+                <div class="line"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18374531.471257728!2d55.472380871368266!3d22.94340209675875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97f346053b7%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1610246115848!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="links_for_mail"><a class="mail" href="mailto:jpalaguachi6969@gmail.com?Subject=Website"><i class="fa fa-envelope">&nbsp;
+                            <h1>jpalaguachi6969@gmail.com</h1>
+                        </i></a><br><br><br><br><br><br><br><a href="#"><i class="fa fa-instagram">&nbsp;<h3>instagram id</h3></i></a> </div>
+            </section>
